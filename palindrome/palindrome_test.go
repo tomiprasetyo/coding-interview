@@ -8,6 +8,8 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
+// solusi pertama : Reverse String
+
 func isPalindrome(value string) bool {
 
 	var temp string = ""
