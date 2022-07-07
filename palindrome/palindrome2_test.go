@@ -8,7 +8,7 @@ import (
 
 func isPalindrome2(value string) bool {
 
-	for i := 0; i < len(value); i++ {
+	for i := 0; i < len(value)/2; i++ {
 		var firstIndex int
 		var lastIndex int
 
